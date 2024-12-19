@@ -70,4 +70,3 @@ Tenent Image <a href="https://www.flaticon.com/free-icons/tenant" title="tenant 
 ## Acknowledgments
 
 * I am grateful for the opportunity and would love to keep learning!!
-
