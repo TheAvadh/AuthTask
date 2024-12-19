@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Signup from './components/Signup';
+import AuthPage from './components/Signup';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Signup/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/auth" />} />
+        <Route path="/auth" element={<AuthPage />} />
+      </Routes>
+    </Router>
   );
 }
 

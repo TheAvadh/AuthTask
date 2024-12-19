@@ -45,6 +45,8 @@ const AuthPage = () => {
       role: e.target.role?.value,
     };
 
+    console.log(data);
+
     const url = isSignup ? 'http://localhost:8080/api/auth/signup' : 'http://localhost:8080/api/auth/login';
 
     try {
