@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Task by Brikli
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* *Date Created*: 18 DECEMBER 2024
+* *Last Modification Date*: 19 DECEMBER 2024
+* *GitHub URL*: <https://github.com/TheAvadh/AuthTask.git>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Author
 
-### `npm start`
+* Avadh Rakholiya (avadhrakholiya@gmail.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [React](https://legacy.reactjs.org/docs/getting-started.html/) - The web framework used
+* [Axios](https://axios-http.com/docs/intro) - For making HTTP requests
+* [React Router](https://reactrouter.com/) - For routing between pages
+* [Tailwind CSS](https://tailwindcss.com/) - For styling
+* [npm](https://docs.npmjs.com//) - Dependency Management
+* [MongoDB](https://www.mongodb.com/) - NoSql Database
 
-### `npm run build`
+## Testing Credentials
+All the emails are dummy!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Landlord: landlord@gmail.com   
+Property Manager: propertymanager@gmail.com  
+Tenant: tenant@gmail.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Password for all: tester123
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Work Done
 
-### `npm run eject`
+I am assigned with the following tasks which I implemented successfully:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* ⁠DB must include a field for name, email, password and role.
+* ⁠Roles are : landlord, property managers, tenants.
+* ⁠Once logged in, they should see their name + role.
+* ⁠Should be secure, but no need for encryption.
+* ⁠Tech stack : React, NodeJS and JSON to get data any package you deem necessary.
+* ⁠No need for any UI/UX. Just want to see the bare bone process.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I implented a fully-functional website for the same. Below is the detailed description of each tasks:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* ### Sign Up
+    In the sign up process, the website asks for the role (drop down), first name, last name, email and password from the user. Email and Passoword fields include validation of the inputed data. The password must be atleast 8 character long and it should include atleast a number or a special character. Website also checks for the confirmation of the password which is again validated field which will compare it with the above entered password. Once the user clicks Sign Up button, an alert will be generated stating "Sign Up successful".
 
-## Learn More
+* ### Login
+    In the login process, the website will take email and password as an input. Both the fields are validated and hence it takes the same minimum criteria to successfully login. Once the user inputs valid credentials and press Login, it will redirect to the respective dashboard.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* ### Dashboard
+    Landlord and Tenant shares the dashboard (same URL) and the content on the dashboard changes dynamically based on the role of the user. Property Manager has a different dashboard on separate URL. It was done so as the task did not specify a particular way so done both.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Sources Used
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### tailwind css installation
 
-### Making a Progressive Web App
+Install Tailwind CSS with Create React App 
+<a href="https://tailwindcss.com/docs/guides/create-react-app">Official Documentation</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### assests/images
+Landlord image <a href="https://www.flaticon.com/free-icons/landlord" title="landlord icons">Landlord icons created by Eucalyp - Flaticon</a>
+Property Manager <a href="https://www.flaticon.com/free-icons/lender" title="lender icons">Lender icons created by pojok d - Flaticon</a>
+Tenent Image <a href="https://www.flaticon.com/free-icons/tenant" title="tenant icons">Tenant icons created by Freepik - Flaticon</a>
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* I am grateful for the opportunity and would love to keep learning!!
