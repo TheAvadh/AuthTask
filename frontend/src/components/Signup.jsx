@@ -49,6 +49,19 @@ const AuthPage = () => {
         {isSignup ? (
           <form className="grid gap-4">
             <div className="grid gap-2">
+                <Label htmlFor="role">Role</Label>
+                <select
+                    id="role"
+                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-base-100 focus:border-base-200 sm:text-sm"
+                    required
+                >
+                    <option value="">Select your role</option>
+                    <option value="landlord">Landlord</option>
+                    <option value="propertyManager">Property Manager</option>
+                    <option value="tenant">Tenant</option>
+                </select>
+            </div>
+            <div className="grid gap-2">
               <Label htmlFor="fullName">Full Name</Label>
               <Input id="fullName" placeholder="Enter your full name" required />
             </div>
